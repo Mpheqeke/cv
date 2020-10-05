@@ -1,0 +1,17 @@
+.navbar_content
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    color: darkgrey;
+}
+
+.left_content
+{
+    display: flex;
+}
+.navbar_content>.left_content>div{
+    margin-right: 15px;
+    font-size: 11em;
+    text-transform: capitalize;
+}
