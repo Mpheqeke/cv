@@ -2,6 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8"/>
+        <meta name = "viewport" content = "width=device-width, intial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Welcome</title>
         <link rel="stylesheet" href="styles.css">
@@ -11,39 +12,55 @@
     <!-- body -->
     <body>
         <nav>
-            <div class="navbar"><i class ="fa fa-bars"></i></div>
+            <div class="left_nav"><i class ="fa fa-bars"></i></div>
             <ul class= "main_nav">
-                <li><a href="index.html">Home</a></li>
+                <li><a href="Home.html">Home</a></li>
                 <li><a href="Experience.html">Experience</a></li>
                 <li><a href="About.html">About</a> </li>
                 <div class="colapsed_nav"><i class ="fa fa-times"></i></div>
+                <!-- <span class= "twittericon">
+                    <svg class="svg-inline--fa fa-twitter fa-w-16 fa-fw" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="twitter" role="img" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path></svg> 
+                </span> -->
+                <span class = "icons">
+                   <i class= "fa fa-facebook"></i> 
+                </span>
+
+
 <!--add icons-->
+                <!--li class= "right_nav">
+                    <div>Katleho Mpheqeke</div>
+                </li-->
             </ul>
-            <div class= "right_content">
-                <div>Katleho Mpheqeke</div>
-            </div>
+            
         </nav>
 
         <div class="about_content">
             <h1>About</h1>
 
             <div class="content">
-                <p>
+               
                   
                     
-                    <div class= "School">
-                        <h2>School Background</h2>
-                        I am currently a final year student doing Bsc IT at <a href="http://www.nwu.ac.za/">North West University</a>. 
-                        <br>
-                        I have been privelleged enough to go to a diversified and highly talented highschool <a href="https://www.hstransvalia.co.za/"> Hoërskool Transvalia</a>. 
+                    <div class= "about_container">
+                        <div class="about_c">
+                            <h2 class="about_heading">School Background</h2>
+                            <p>
+                                I am currently a final year student doing Bsc IT at <a href="http://www.nwu.ac.za/">North West University</a>. 
+                                <br>
+                                I have been privelleged enough to go to a diversified and highly talented highschool <a href="https://www.hstransvalia.co.za/"> Hoërskool Transvalia</a>. 
+                            </p>
+                            </div>
+                            <div class="about_c">
+                                <h2 class="about_heading">Leadership</h2>
+                                <p>
+                                    I was privelleged enough to serve as a class representative(VLR) from 2013 to 2014.
+                                    I also sevred as a prefect(LOR) in my senior years at Hoërskool Transvalia from 2015 to 2016.
+                                    I also formed part of the school spirit squad/ dirgente in 2016 for the Interhouse, interHigh and Super 16 athletics events. 
+                                </p>
+                            </div>
+
                         
                         
-                        <h3>Leadership</h3>
-                        
-                        I was privelleged enough to serve as a class representative(VLR) from 2013 to 2014.
-                        I also sevred as a prefect(LOR) in my senior years at Hoërskool Transvalia from 2015 to 2016.
-                        I also formed part of the school spirit squad/ dirgente in 2016 for the Interhouse, interHigh and Super 16 athletics events.
-                       
                         <!-- <div class= "Academic_Transcript">
                             <h1>Academic Transcripts</h1>
                             <div class = "Varsity">
@@ -60,30 +77,30 @@
                             </div>
 
                         </div> -->
-                        
+                       <br/> 
                 </div>
 
                 <div class= "Interests">
                     <h2>Interests</h2>
-                    <div>
-                        <img src="./Images/field.jpg" alt="rugby photo">
+                    <div class = "Portfolio_img">
+                        <img class="profile" src="./Images/field.jpg" alt="rugby photo">
                         <sub>I used to play rugby in highschool and the love for the sport never went away. It taught me to be humble, how to be a good team player and to get up after every knock down. That getting pushed back does not mean you going to stay there. Most importantly it taught me that the work you put in gets reflected in the results at the end of the day. 
                         </sub>
                     </div>
-                    <div>
-                        <img src="./Images/Java.jpg" alt=" coding challenge">
+                    <div class = "Portfolio_img">
+                        <img class="profile" src="./Images/Java.jpg" alt=" coding challenge">
                         <sub>I love coding challenges as it challenges you to think outside the box. That no matter the subject/ problem you think you can not solve its always best to break it down piece by piece the same way you would eat an elephant.</sub>                 
                     </div>
-                    <div>
-                        <img src="./Images/cyber.jpg" alt="Data security">
+                    <div class = "Portfolio_img">
+                        <img class="profile" src="./Images/cyber.jpg" alt="Data security">
                         <sub>Me interest in Data Security grew because of a TV series CIS:NY. It seemed intersting and challenging</sub>
                     </div>
-                    <div>
-                        <img src="./Images/medical.jpg" alt="Biomedical Technology developmet">
+                    <div class = "Portfolio_img">
+                        <img class="profile" src="./Images/medical.jpg" alt="Biomedical Technology developmet">
                         <sub>My interest grew in the development of Technology in the medical field and recognition software. i fot facinated in the field on how it could be used to better life qualities for disabled and injured people.</sub>
                     </div>                   
                 </div>
-                </p>           
+                  
              </div>
         </div>
 
