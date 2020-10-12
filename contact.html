@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Contact</title>
         <link rel="stylesheet" href="css/style.css">
+        <script src="https://kit.fontawesome.com/e191265273.js" crossorigin="anonymous"></script>
     </head>
     <body>
         <header>
@@ -12,14 +13,18 @@
                 <div>
                     <a href="#" class="nav-left">KATLEHO</a>
                 </div>
-
                 <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list">
-                        <li><a href="index.html" class="nav__link">Home</a></li>
-                        <li><a href="about.html" class="nav__link">About</a></li>
-                        <li><a href="experience.html" class="nav__link">Experience</a></li>
-                        <li><a href="#" class="nav__link active">Contact</a></li>
+                        <li><a href="index.html" class="nav__link" onclick="Fullscreen()";>Home</a></li>
+                        <li><a href="about.html" class="nav__link" onclick="Fullscreen()";> About</a></li>
+                        <li><a href="experience.html" class="nav__link" onclick="Fullscreen();">Experience</a></li>
+                        <li><a href="#" class="nav__link active" onclick="Fullscreen();">Contact</a></li>
                     </ul>
+                    <div class="confirmation">
+                        <div class="share">
+                            <button  type="button" onclick="share();">Share CV</button>
+                        </div>
+                    </div>
                 </div>
 
                 <div class="nav__toggle" id="nav-toggle">
@@ -28,16 +33,42 @@
             </nav>
         </header>
 
-        <div class="section">
-            <h1 class="section-title">Contact</h1>
-
+        <div class="section"><h1 class="section-title">Contact</h1></div>
+        <div class="section_contact">
             
+            
+            <div id= "email" class="contact_icon">
+                <a class="contact" href="mailto:mpheqekek@gmail.com" rel="nofolow">
+                    <i id="icon" class="fas fa-at fa-2x"></i>
+                    <p>email: mpheqekek@gmail.com</p>
+                </a>
+            </div> 
+            <div id="phone" class="contact_icon">
+                <a class="contact" href="tel:+271605551" target="_blank" rel="nofollow">
+                    <i ic="icon" class="fas fa-phone-square fa-2x"></i>
+                    <p>phone number:0658175027</p>
+                </a>
+            </div>
+            <div id="linkd"class="contact_icon">
+                <a class="contact" href="https://www.linkedin.com/resume-builder/urn:li:fs_memberResume:6721665/" target="_blank" rel="nofollow">
+                    <i id="icon"class="fab fa-linkedin fa-2x"></i>
+                    <p>LinkedIn Profile:https://www.linkedin.com/in/katleho-mpheqeke-3321a9197</p>
+                </a>
+            </div>
+            <div id="whats" class="contact_icon">
+                <a class="contact" href="https://wa.link/fxviyg" target="_blank" rel="nofollow">
+                    <i id="icon"class="fab fa-whatsapp fa-2x"></i>
+                    <p>phone number: 0731605551</p>
+                </a> 
+            </div>                              
         </div>
 
         <footer class="footer">
-            <p>Created by K. Mpheqeke &copy;</p>
+            <p>Created by K. Mpheqeke &copy;<a  href="img/Cirriculum Vitae.pdf" download><i id="download" class="fas fa-download fa-2x" ></i><p id="download">download</p></a></p>
         </footer>
         
-        <script src="js/main.js"></script>
+        <script src="js/main.js">
+                        
+        </script>
     </body>
 </html>
