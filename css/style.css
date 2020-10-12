@@ -230,6 +230,31 @@ header {
     background-color: black;
     width: 20%;
 }
+#cplus {
+    background-color: black;
+    width: 50%;
+}
+
+#csharp {
+    background-color: black;
+    width: 60%;
+}
+#java {
+    background-color: black;
+    width: 75%;
+}
+
+#python {
+    background-color: black;
+    width: 80%;
+}
+#vue {
+    background-color: black;
+    width: 30%;
+}
+
+
+
 
 .footer {
     background-color: #002d47;
